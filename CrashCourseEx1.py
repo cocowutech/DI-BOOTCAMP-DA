@@ -78,3 +78,19 @@ else:
 #18 
 my_string = "My course is gonna start soon!"
 print(my_string.isupper())
+
+
+#Exercise 2 : cat's and dog's years
+
+human_yrs = int(input("human years:"))
+
+if human_yrs == 1:
+    print([human_yrs,15,15])
+
+elif human_yrs == 2: 
+    print([human_yrs,24,24])
+
+else:
+    cat_yrs = 24+(human_yrs-2)*4
+    dog_yrs = 24+(human_yrs-2)*5
+    print([human_yrs,cat_yrs,dog_yrs])
