@@ -43,3 +43,10 @@ if str(user_input2) == myname:
     print('wow we have the same name')
 else: 
     print("oops, it's not meant to be")
+
+#Ex9  Tall enough to ride a roller coaster
+user_input3 = input("what's your height in centimeter")
+if int(user_input3) > 145:
+    print('you are tall enough to ride.')
+else:
+    print('you need to grow some more to ride.')
