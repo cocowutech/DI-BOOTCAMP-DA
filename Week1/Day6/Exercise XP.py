@@ -97,4 +97,5 @@ for i in range(len(users)):
 print(disney_users_B)
 
 
-print(sorted(users))
+disney_users_C = { user : i for i , user in enumerate(sorted(users))}
+print(disney_users_C)
