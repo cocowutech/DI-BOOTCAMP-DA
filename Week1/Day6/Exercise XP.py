@@ -82,3 +82,19 @@ more_on_zara = {
 brand.update(more_on_zara)
 
 print("Updated number of stores:", brand["number_stores"])
+
+#Exercise 4 : Disney characters
+users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
+disney_users_A = {}
+for user in users:
+    disney_users_A[user] = users.index(user)
+print(disney_users_A)
+
+disney_users_B = {}
+
+for i in range(len(users)):
+    disney_users_B[i] = users[i]
+print(disney_users_B)
+
+
+print(sorted(users))
