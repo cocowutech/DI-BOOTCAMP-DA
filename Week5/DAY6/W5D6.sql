@@ -136,7 +136,10 @@ VALUES (
 -- Bob borrowed Harry Potter on 2021-08-12
 INSERT INTO Library (book_fk_id, student_fk_id, borrowed_date)
 VALUES (
-    (SELECT book_id FROM Book WHERE_
+    (SELECT book_id FROM Book WHERE_title = 'Harry Potter'),
+    (SELECT student_id FROM Student WHERE name = 'Bob'),
+    '2021-08-12'
+);
 
 
 SELECT * FROM Library;
