@@ -60,14 +60,10 @@
 - 全流程中英双语支持（表头、图表、输出报表）
 - 代码结构清晰，方便二次开发/交接/展示
 
----
-
-## 贡献和反馈 Contribution & Feedback
-
-如有建议、BUG或想扩展本系统功能，欢迎PR或发Issue！  
-For suggestions, bug reports, or feature requests, feel free to submit a PR or open an issue.
-
----
-
-祝你使用愉快，项目大卖！  
-Wish you a great success with your project!
+- Multi-table structure modeling, supporting the splitting of core data in education and training business
+- Supports batch import and deduplication of all data
+- The operations of adding, deleting, modifying and querying are simple and easy to use
+- Automatic statistics of course and sales/channel profit rankings
+- Report export and one-click visualization of bar charts
+- Full-process bilingual support in Chinese and English (table headers, charts, output reports)
+- The code structure is clear, facilitating secondary development/handover/presentation
